@@ -1,5 +1,3 @@
-## Get Analyte file 
-
 import tkinter as tk
 from tkinter import filedialog
 from bokeh.layouts import gridplot, column
