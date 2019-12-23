@@ -1,8 +1,8 @@
 dependencies:
   - bokeh
   - pandas
-  - umap-learn
-  - scikit-learn
+  - umap
+  - scikit
   - numpy
   - tornado
   - scipy
