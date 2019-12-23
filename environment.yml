@@ -1,0 +1,11 @@
+dependencies:
+  - bokeh
+  - pandas
+  - umap-learn
+  - scikit-learn
+  - numpy
+  - tornado
+  - scipy
+  - pip
+  - pip:
+    - jupyter-server-proxy
