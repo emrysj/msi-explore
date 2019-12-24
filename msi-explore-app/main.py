@@ -1,4 +1,5 @@
 import tkinter as tk
+from os.path import join, dirname
 from tkinter import filedialog
 from bokeh.layouts import gridplot, column
 from bokeh.models import ColumnDataSource,CustomJS, LassoSelectTool, BoxSelectTool, Slider, Select, RadioButtonGroup, Button, TextInput, HoverTool, TapTool
@@ -12,9 +13,6 @@ from sklearn.decomposition import PCA
 import umap
 from operator import add
 
-# This 
-#root = tk.Tk()
-#root.withdraw()
 
 
 # change data path to file path when ready
@@ -29,8 +27,8 @@ def load_data():
 
     curdoc().add_root(button_1)
 	
-    datapath=filedialog.askopenfilename() 
-
+    #datapath=filedialog.askopenfilename() 
+    datapath=join(dirname(__file__), 'data/Analyte 2.txt'))
 	
     global Dsource, Csource, Isource, Ssource, data_new_masked, data3, CX2, CY2, data, YY, XX,SelectedIon, mzlabs
     mz=pd.read_csv(datapath,sep='\t',skiprows=(0,1,2),header=None, nrows=1)
