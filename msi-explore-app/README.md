@@ -1,6 +1,6 @@
-This example shows the daily record, average, and actual temperatures for three
-cities (Austin, Boston, Seattle) in 2015. The default view includes a discrete
-graph of the temperatures, but a smoothed representation can be selected.
+This is a browser app that allows Waters MSI processed data (Analyte.txt) to be visualised 
+in a more interactive manner. The basis is a UMAP approach that allows regions of interest to be 
+selected and compared to find ion species that contribute to differentation. 
 
 To run the script, execute:
 
