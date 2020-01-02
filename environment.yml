@@ -5,7 +5,9 @@ dependencies:
   - scikit-learn
   - numpy
   - tornado
+  - requests
   - scipy
   - pip
   - pip:
+    - nbserverproxy
     - jupyter-server-proxy
