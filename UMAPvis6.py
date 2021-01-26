@@ -1,5 +1,5 @@
-import tkinter as tk
-from tkinter import filedialog
+#import tkinter as tk
+#from tkinter import filedialog
 from bokeh.layouts import gridplot, column
 from bokeh.models import ColumnDataSource,CustomJS, LassoSelectTool, BoxSelectTool, Slider, Select, RadioButtonGroup, Button, TextInput, HoverTool, TapTool
 from bokeh.models.annotations import Title
