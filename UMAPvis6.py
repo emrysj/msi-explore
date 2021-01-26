@@ -17,8 +17,8 @@ import math
 from operator import add
 
 # This stops the GUI window opening  
-root = tk.Tk()
-root.withdraw()
+#root = tk.Tk()
+#root.withdraw()
 
 
 #root.iconify()
