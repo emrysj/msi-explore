@@ -1,6 +1,6 @@
 bokeh==2.2.3
 certifi==2020.12.5
-Jinja2==2.11.2
+Jinja2==2.11.3
 joblib==1.0.0
 llvmlite==0.35.0
 MarkupSafe==1.1.1
