@@ -1,5 +1,5 @@
 bokeh==2.2.3
-certifi==2020.12.5
+certifi==2022.12.7
 Jinja2==2.11.2
 joblib==1.0.0
 llvmlite==0.35.0
